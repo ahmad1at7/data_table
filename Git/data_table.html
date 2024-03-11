@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Table</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <h2>Product Data Table</h2>
+    <table id="productTable">
+        
+            
+        
+        <!-- <label for="selectOption">Select Option: </label> -->
+    
+    <thead>
+        <tr>
+            <th>Select
+                <select id="selectOption">
+                    <option value="Option 0">Select Options </option>
+                    <option value="Option 1">Option 1</option>
+                    <option value="Option 2">Option 2</option>
+                    <option value="Option 3">Option 3</option>
+                    <option value="Option 4">Option 4</option>
+                    <option value="Option 5">Option 5</option>
+                    <option value="Option 6">Option 6</option>
+                    <option value="Option 7">Option 7</option>
+                    <option value="Option 8">Option 8</option>
+                    <option value="Option 9">Option 9</option>
+                    <option value="Option 10">Option 10</option>
+                    <option value="Option 11">Option 11</option>
+                    <option value="Option 12">Option 12</option>
+                    <!-- Add more options as needed -->
+                </select>
+            </th>
+            <th>ID</th>
+            <th>Product Name</th>
+            <th>Product Title</th>
+            <th>Product Description</th>
+            <th>Product Vendor</th>
+            <th>In Stock</th>
+            <th>Buying Price</th>
+            <th>Sale Price</th>
+            <th>Purchase Quantity</th>
+            <th>Product Type</th>
+            <th>Shipping Rates</th>
+            <th>Refill Limit</th>
+            <th>Product Location Address</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+        <tbody>
+            <tr>
+                <td><input type="checkbox"> Option 1</td>
+                <td>001</td>
+                <td>Product A</td>
+                <td>Title A</td>
+                <td>Description A</td>
+                <td>Vendor X</td>
+                <td>100</td>
+                <td>$50.00</td>
+                <td>$75.00</td>
+                <td>50</td>
+                <td>Type 1</td>
+                <td>$10.00</td>
+                <td>200</td>
+                <td>123 Main St, Cityville</td>
+                <td>
+                        <select>
+                            <option>Action</option>
+                            <option> <button>Add Vendor</button></option>
+                            <option> <button>Add Products</button></option>
+                            <option> <button>Edit Products</button></option>
+                        </select>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox">Option 2</td>
+                <td>002</td>
+                <td>Product B</td>
+                <td>Title B</td>
+                <td>Description B</td>
+                <td>Vendor Y</td>
+                <td>75</td>
+                <td>$40.00</td>
+                <td>$60.00</td>
+                <td>30</td>
+                <td>Type 2</td>
+                <td>$15.00</td>
+                <td>150</td>
+                <td>456 Oak St, Townsville</td>
+                <td>
+                    <select>
+                        <option>Action</option>
+                        <option> <button>Add Vendor</button></option>
+                        <option> <button>Add Products</button></option>
+                        <option> <button>Edit Products</button></option>
+                    </select>    
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox">Option 3</td>
+                <td>003</td>
+                <td>Product C</td>
+                <td>Title C</td>
+                <td>Description C</td>
+                <td>Vendor Z</td>
+                <td>95</td>
+                <td>$70.00</td>
+                <td>$60.00</td>
+                <td>35</td>
+                <td>Type 3</td>
+                <td>$10.00</td>
+                <td>130</td>
+                <td>456 Oak St, Townsville</td>
+                <td>
+                    <select>
+                        <option>Action</option>
+                        <option> <button>Add Vendor</button></option>
+                        <option> <button>Add Products</button></option>
+                        <option> <button>Edit Products</button></option>
+                    </select>
+                </td>
+            </tr>
+            
+            <tr>
+                <td><input type="checkbox">Option 4</td>
+                <td>004</td>
+                <td>Product D</td>
+                <td>Title D</td>
+                <td>Description D</td>
+                <td>Vendor F</td>
+                <td>100</td>
+                <td>$45.00</td>
+                <td>$55.00</td>
+                <td>25</td>
+                <td>Type 4</td>
+                <td>$12.00</td>
+                <td>110</td>
+                <td>123 Main St, Cityville</td>
+                <td>
+                    <select>
+                        <option>Action</option>
+                        <option> <button>Add Vendor</button></option>
+                        <option> <button>Add Products</button></option>
+                        <option> <button>Edit Products</button></option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox">Option 5</td>
+                <td>004</td>
+                <td>Product D</td>
+                <td>Title D</td>
+                <td>Description D</td>
+                <td>Vendor F</td>
+                <td>100</td>
+                <td>$45.00</td>
+                <td>$55.00</td>
+                <td>25</td>
+                <td>Type 4</td>
+                <td>$12.00</td>
+                <td>110</td>
+                <td>123 Main St, Cityville</td>
+                <td>
+                    <select>
+                        <option>Action</option>
+                        <option> <button>Add Vendor</button></option>
+                        <option> <button>Add Products</button></option>
+                        <option> <button>Edit Products</button></option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox">Option 6</td>
+                <td>004</td>
+                <td>Product D</td>
+                <td>Title D</td>
+                <td>Description D</td>
+                <td>Vendor F</td>
+                <td>100</td>
+                <td>$45.00</td>
+                <td>$55.00</td>
+                <td>25</td>
+                <td>Type 4</td>
+                <td>$12.00</td>
+                <td>110</td>
+                <td>123 Main St, Cityville</td>
+                <td>
+                    <select>
+                        <option>Action</option>
+                        <option> <button>Add Vendor</button></option>
+                        <option> <button>Add Products</button></option>
+                        <option> <button>Edit Products</button></option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox">Option 7</td>
+                <td>004</td>
+                <td>Product D</td>
+                <td>Title D</td>
+                <td>Description D</td>
+                <td>Vendor F</td>
+                <td>100</td>
+                <td>$45.00</td>
+                <td>$55.00</td>
+                <td>25</td>
+                <td>Type 4</td>
+                <td>$12.00</td>
+                <td>110</td>
+                <td>123 Main St, Cityville</td>
+                <td>
+                    <select>
+                        <option>Action</option>
+                        <option> <button>Add Vendor</button></option>
+                        <option> <button>Add Products</button></option>
+                        <option> <button>Edit Products</button></option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox">Option 8</td>
+                <td>004</td>
+                <td>Product D</td>
+                <td>Title D</td>
+                <td>Description D</td>
+                <td>Vendor F</td>
+                <td>100</td>
+                <td>$45.00</td>
+                <td>$55.00</td>
+                <td>25</td>
+                <td>Type 4</td>
+                <td>$12.00</td>
+                <td>110</td>
+                <td>123 Main St, Cityville</td>
+                <td>
+                    <select>
+                        <option>Action</option>
+                        <option> <button>Add Vendor</button></option>
+                        <option> <button>Add Products</button></option>
+                        <option> <button>Edit Products</button></option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox">Option 9</td>
+                <td>004</td>
+                <td>Product D</td>
+                <td>Title D</td>
+                <td>Description D</td>
+                <td>Vendor F</td>
+                <td>100</td>
+                <td>$45.00</td>
+                <td>$55.00</td>
+                <td>25</td>
+                <td>Type 4</td>
+                <td>$12.00</td>
+                <td>110</td>
+                <td>123 Main St, Cityville</td>
+                <td>
+                    <select>
+                        <option>Action</option>
+                        <option> <button>Add Vendor</button></option>
+                        <option> <button>Add Products</button></option>
+                        <option> <button>Edit Products</button></option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox">Option 10</td>
+                <td>010</td>
+                <td>Product D</td>
+                <td>Title D</td>
+                <td>Description D</td>
+                <td>Vendor F</td>
+                <td>100</td>
+                <td>$45.00</td>
+                <td>$55.00</td>
+                <td>25</td>
+                <td>Type 4</td>
+                <td>$12.00</td>
+                <td>110</td>
+                <td>123 Main St, Cityville</td>
+                <td>
+                    <select>
+                        <option>Action</option>
+                        <option> <button>Add Vendor</button></option>
+                        <option> <button>Add Products</button></option>
+                        <option> <button>Edit Products</button></option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox">Option 11</td>
+                <td>011</td>
+                <td>Product D</td>
+                <td>Title D</td>
+                <td>Description D</td>
+                <td>Vendor F</td>
+                <td>100</td>
+                <td>$45.00</td>
+                <td>$55.00</td>
+                <td>25</td>
+                <td>Type 4</td>
+                <td>$12.00</td>
+                <td>110</td>
+                <td>123 Main St, Cityville</td>
+                <td>
+                    <select>
+                        <option>Action</option>
+                        <option> <button>Add Vendor</button></option>
+                        <option> <button>Add Products</button></option>
+                        <option> <button>Edit Products</button></option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox">Option 12</td>
+                <td>012</td>
+                <td>Product D</td>
+                <td>Title D</td>
+                <td>Description D</td>
+                <td>Vendor F</td>
+                <td>100</td>
+                <td>$45.00</td>
+                <td>$55.00</td>
+                <td>25</td>
+                <td>Type 4</td>
+                <td>$12.00</td>
+                <td>110</td>
+                <td>123 Main St, Cityville</td>
+                <td>
+                    <select>
+                        <option>Action</option>
+                        <option> <button>Add Vendor</button></option>
+                        <option> <button>Add Products</button></option>
+                        <option> <button>Edit Products</button></option>
+                    </select>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script>
+        // Function to highlight the selected row
+        function highlightRow(optionValue) {
+            var tableRows = document.querySelectorAll("#productTable tbody tr");
+            tableRows.forEach(function(row) {
+                var selectCell = row.cells[0];
+                if (selectCell.textContent.trim() === optionValue) {
+                    row.classList.add('highlight');
+                } else {
+                    row.classList.remove('highlight');
+                }
+            });
+            if (targetRow) {
+                targetRow.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }
+        
+        }
+
+        // Event listener for the select option dropdown
+        document.getElementById('selectOption').addEventListener('change', function () {
+            var selectedOption = this.value;
+            highlightRow(selectedOption);
+        });
+    </script>
+</body>
+
+</html>

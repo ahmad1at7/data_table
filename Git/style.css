@@ -1,0 +1,42 @@
+body{
+    background-color: lightcyan;
+    
+}
+table{
+    width: 99%;
+    border-collapse: collapse;
+    margin: 10px;
+    
+}
+.cap{
+    text-align: left;
+}
+
+th, td{
+    border: 1px solid rgb(77, 72, 72);
+    padding: 8px;
+    text-align: left;
+    cursor: pointer;
+    
+    
+    
+}
+th{
+    background-color: rgb(244, 244, 181);
+    color: blue;
+}
+tr:hover{
+    background-color: white;
+}
+button{
+    background-color: rgba(246, 239, 101, 0.525);
+    border-radius: 5px;
+    margin: 1px;
+
+}
+button:hover{
+    background-color: blueviolet;
+}
+.highlight {
+    background-color: rgb(244, 244, 181); /* Add your desired highlight color */
+}
